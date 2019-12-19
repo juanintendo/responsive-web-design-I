@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header {
-    border: solid;
+    /* border: solid; */
     margin: 5px;
     padding: 4px;
     
@@ -103,11 +103,11 @@ nav a:hover{
     font-size: 77px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     margin: 5px;
-    padding-top: 5px;
+    padding-top: 25px;
 } 
 
 .header-text a{
@@ -123,6 +123,7 @@ nav a:hover{
     color: grey;
     box-shadow: 7px 7px 3px grey;
     border-radius: 25px;
+    
   
 
 }
@@ -133,8 +134,22 @@ nav a:hover{
     transition: 0.7s;
     box-shadow: 7px 7px 3px black;
     border-radius: 25px;
+    ;
     
 }
+.round-image {
+    padding-bottom: 18%;
+    margin: -334px;
+    padding: -4px;
+    margin-left: 156%;
+    margin-bottom: -18%;
+    /* display: flex; */
+    /* align-items: flex-end
+}
+
+
+
+
 
 
 /* .top-header {
