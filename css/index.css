@@ -50,6 +50,10 @@ table {
 	border-spacing: 0;
 }
 
+.divider {
+    margin-top: 30px;
+}
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -75,6 +79,7 @@ header {
     padding: 4px;
     
 }
+
 
 nav {
 	width: 90%;
@@ -146,6 +151,19 @@ nav a:hover{
     margin-left: 156%;
     margin-bottom: -18%;
     align-items: flex-end
+}
+
+.text-container, .h4, .p{
+    text-align: center;
+    font-size: 21px;
+    margin: 5px;
+    
+}
+
+.column-3, .h4, .p{
+    text-align: center;
+    font-size: 21px;
+    margin: 5px;
 }
 .container-zero, .container-one, .features-about, .container-two, .footer-content{
 	display: flex;
