@@ -180,7 +180,9 @@ section{
 }
 .copyright p{
 	text-decoration: none;
-	color: black;
+    color: black;
+    padding-right: 39px;
+    font-weight: 900;
 
 }
 
@@ -192,7 +194,13 @@ section{
 		width: 100%;
 	}
 	.footer-info{
-		width: 25%;
+        width: 25%;
+        padding-top: 10px;
+        padding-left: 23%;
+        padding-bottom: 3%;
+        width: 69%;
+        line-height: 25px;
+        text-align: center;
 	}
 	.logo{
 		margin: 0 auto;
@@ -248,7 +256,10 @@ section{
 	.footer-info{
         width: 40%;
         padding-top: 3px;
-	}
+        
+    }
+    
+   
 	.copyright{
 		margin-top:20px;
 	}
