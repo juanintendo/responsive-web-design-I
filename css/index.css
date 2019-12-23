@@ -183,7 +183,7 @@ section{
 
 }
 
-@media only screen and (min-width: 521px) and ( max-width: 800px) {
+@media only screen and (min-width: 769px) and ( max-width: 800px) {
 	.round-image {
 	  display:none;
 	}
@@ -207,7 +207,7 @@ section{
 		order: -2;
 	}
   }
-  @media only screen and (max-width: 520px) {
+  @media only screen and (max-width: 768px) {
 	.round-image {
 	  display:none;
 	}
