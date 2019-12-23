@@ -50,10 +50,6 @@ table {
 	border-spacing: 0;
 }
 
-.divider {
-    margin-top: 30px;
-}
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -68,7 +64,6 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    padding-top: 8px;
 }
 
 /* Your code starts here! */
@@ -79,7 +74,6 @@ header {
     padding: 4px;
     
 }
-
 
 nav {
 	width: 90%;
@@ -152,20 +146,7 @@ nav a:hover{
     margin-bottom: -18%;
     align-items: flex-end
 }
-
-.text-container, .h4, .p{
-    text-align: center;
-    font-size: 21px;
-    margin: 5px;
-    
-}
-
-.column-3, .h4, .p{
-    text-align: center;
-    font-size: 21px;
-    margin: 5px;
-}
-.container-zero, .container-one, .features-about, .container-two, .footer-content{
+.container-zero, .container-one, .container-two, .footer-content{
 	display: flex;
 	width: 90%;
 	margin: 0 auto;
@@ -198,13 +179,11 @@ section{
 }
 .copyright p{
 	text-decoration: none;
-    color: black;
-    padding-right: 39px;
-    font-weight: 900;
+	color: black;
 
 }
 
-@media only screen and (min-width: 500px) and ( max-width: 800px) {
+@media only screen and (min-width: 521px) and ( max-width: 800px) {
 	.round-image {
 	  display:none;
 	}
@@ -212,13 +191,7 @@ section{
 		width: 100%;
 	}
 	.footer-info{
-        width: 25%;
-        padding-top: 10px;
-        padding-left: 23%;
-        padding-bottom: 3%;
-        width: 69%;
-        line-height: 25px;
-        text-align: center;
+		width: 25%;
 	}
 	.logo{
 		margin: 0 auto;
@@ -234,7 +207,7 @@ section{
 		order: -2;
 	}
   }
-  @media only screen and (max-width: 499px) {
+  @media only screen and (max-width: 520px) {
 	.round-image {
 	  display:none;
 	}
@@ -272,12 +245,8 @@ section{
 		height: auto;
 	}
 	.footer-info{
-        width: 40%;
-        padding-top: 3px;
-        
-    }
-    
-   
+		width: 40%;
+	}
 	.copyright{
 		margin-top:20px;
 	}
