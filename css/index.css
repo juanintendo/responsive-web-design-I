@@ -57,7 +57,10 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	margin: 10px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -123,11 +126,9 @@ nav a:hover{
     font-weight: 600;
     color: grey;
     box-shadow: 7px 7px 3px grey;
-    border-radius: 10px;
-    
-  
-
-}
+	border-radius: 10px;
+	cursor: pointer;
+    }
 
 .header-text a:hover{
     border: 3px solid black;
@@ -144,7 +145,7 @@ nav a:hover{
     padding: -4px;
     margin-left: 156%;
     margin-bottom: -18%;
-    align-items: flex-end
+    align-items: flex-end;
 }
 .container-zero, .container-one, .container-two, .footer-content{
 	display: flex;
@@ -165,14 +166,22 @@ section{
 	width: 90%;
 	margin: 10px auto;
 	padding: 2.5% 0;
+	padding-right: 30px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+	font-weight: 500;
+}
+
+section h3{
+	font-size: 40px;
+	padding: 10px 5px 0px 0;
 }
 .middle-img{
 	display: flex;
 	width: 90%;
 	margin: 15px auto;
 	height: 200px;
+	padding: 25px 0px 25px 0px;
 }
 .copyright{
 	text-align: center;
@@ -183,7 +192,7 @@ section{
 
 }
 
-@media only screen and (min-width: 769px) and ( max-width: 800px) {
+@media only screen and (min-width: 521px) and ( max-width: 800px) {
 	.round-image {
 	  display:none;
 	}
@@ -207,7 +216,7 @@ section{
 		order: -2;
 	}
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 520px) {
 	.round-image {
 	  display:none;
 	}
@@ -249,6 +258,10 @@ section{
 	}
 	.copyright{
 		margin-top:20px;
+	}
+
+	.middle-img{
+		display: none;
 	}
   }
 
