@@ -98,6 +98,11 @@ nav a{
     
 }
 
+p{
+	padding-right: 75px;
+	padding-left: 75px;
+}
+
 nav a:hover{
     color: black;
     transition: 0.7s;
@@ -112,7 +117,8 @@ nav a:hover{
     align-items: center;
     text-align: center;
     margin: 5px;
-    padding-top: 25px;
+	padding-top: 25px;
+	
 } 
 
 .header-text a{
@@ -175,6 +181,7 @@ section{
 section h3{
 	font-size: 40px;
 	padding: 10px 5px 0px 0;
+	padding-left: 75px;
 }
 .middle-img{
 	display: flex;
@@ -220,6 +227,7 @@ section h3{
 	.round-image {
 	  display:none;
 	}
+
 	.header-text{
 		width: 100%;
 	}
